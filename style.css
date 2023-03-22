@@ -15,24 +15,21 @@ html{
 body{
     display: flex;
     justify-content: center;
-    align-items: center;
+
     font-family: 'kumbh Sans';
     background: linear-gradient(180deg, #B068E9 0%, #6463E7 100%);
     background-repeat: no-repeat;
-    width: 100%;
-    height: 100%; 
+    min-height: 100vh; 
 }
+
 .container{
-   
-    margin-top: 14.8rem;
-    margin-bottom: 10rem;
+   margin-top: 14.8rem;
+   margin-bottom: 8.5rem;
     width: 32.7rem;
-  
     display: flex;
-   
-    justify-content: center;
-    padding-left: 2.4rem;
-    padding-right: 2.4rem;
+    /* justify-content: center; */
+    padding: 0 2.4rem 4.8rem 2.4rem;
+ 
     flex-direction: column;
     background-color: white;
     border-radius: 2.3rem;
@@ -40,19 +37,19 @@ body{
 .background{
     background-image: url(images/bg-pattern-mobile.svg);
     background-repeat: no-repeat;
-    background-position-y: 13.5rem;
-    background-position-x: 2.1rem;
+    background-position: 2.1rem -1rem;
 
 
-    position: absolute;
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 24rem;
-    width: 27.9rem;
-    top: 1.2rem;
+    height: 12rem;
 }
+
 .women{
+    position: absolute;
+    top: -11rem;
     width: 23.7rem;
 }
 .faq{
@@ -62,8 +59,8 @@ body{
     line-height: 40px;
 
     color: #1E1F36;
-    margin-top: 13rem;
-    margin-bottom: 3rem;
+
+    margin-bottom: 4rem;
     margin-left: 11rem;
 }
 .max-ttl, .team-ttl, .password-ttl, .cancel-ttl, .provide-ttl{
@@ -71,7 +68,7 @@ body{
     font-weight: 400;
     font-size: 13px;
     line-height: 16px;
-    margin-bottom: 1.8rem;
+    margin-bottom: 1.7rem;
 
     color: #4B4C5F;
     display: flex;
@@ -94,13 +91,13 @@ body{
     
     flex-direction: column;
     display: flex;
-    margin-bottom: 1.8rem;
+    margin-bottom: 1.7rem;
 
     border-bottom: 1px solid lightgray;
 }
 .provide{
-    margin-bottom: 4.8rem;
-}
+    margin-bottom: 0;
+} 
 
 .icon_up{
     transform: rotate(180deg);
@@ -112,7 +109,7 @@ body{
     font-size: 1.2rem;
     line-height: 1.8rem;
     color: #787887;
-    margin-bottom: 1.8rem;
+    margin-bottom: 1.3rem;
     width: 26rem;
 }
 .active{
@@ -128,19 +125,23 @@ body{
         background-repeat: no-repeat;
         background-position-x: -57rem;
         background-position-y: -28rem;
-        margin-top: 12.9rem;
-        margin-bottom: 13rem;
         width: 92rem;
         padding-left: 0;
+        padding-bottom: 0;
         padding-right: 9.5rem;
+        margin-top: 0;
+        margin-bottom: 0;
+        
 
 
     }
+    body{
+        align-items: center;
+    }
     .background{
         background-image:none;
-   
         width: 47.2rem;
-        height: 35.9rem;
+        height: 0;
     }
     .women{
         display: none;
@@ -150,7 +151,7 @@ body{
     .box-desktop{
         display: flex;
         position: absolute;
-        top: 32rem;
+        top: 20rem;
         right: 37.5rem;
     }
     .desktop-float{
@@ -179,7 +180,7 @@ body{
         margin-left: 0;
     }
     .provide{
-        margin-bottom: 10rem;
+        margin-bottom: 8rem;
     }
 
 
